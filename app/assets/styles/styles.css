@@ -3,6 +3,6 @@
 @import 'base/_mixins';
 @import 'base/_global';
 @import 'modules/_header';
-@import 'modules/_logo';
+@import 'modules/_heading-primary';
 @import 'modules/_keyframes';
 @import 'modules/_btn';

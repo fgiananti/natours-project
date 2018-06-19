@@ -12,10 +12,14 @@
 
   position: relative;
 
-  &__logo-container {
+  &__logo-box {
     position: absolute;
-    top: 2.5rem;
-    left: 2.5rem;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
   }
 
   &__text-box {
@@ -23,29 +27,6 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-
-  &__title {
-    color: #fff;
-    text-transform: uppercase;
-    margin-bottom: 3.75rem;
-
-    &__main {
-      display: block;
-      font-size: 3.75rem;
-      font-weight: 400;
-      letter-spacing: 2.1875rem;
-
-      animation: moveInLeft 1s ease-out;
-    }
-
-    &__sub {
-      display: block;
-      font-size: 1.25rem;
-      font-weight: 700;
-      letter-spacing: 1.0875rem;
-      animation: moveInRight 1s ease-out;
-    }
   }
 
   &__btn-container {
