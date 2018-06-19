@@ -13,7 +13,7 @@ gulp.task('watch', () => {
     browserSync.reload();
   });
 
-  watch('./app/assets/styles/**/*.css', () => {
+  watch('./app/assets/styles/**/*.scss', () => {
     gulp.start('cssInject');
   });
 
