@@ -1,8 +1,11 @@
-@import 'normalize.css';
-@import 'base/_variables';
-@import 'base/_mixins';
-@import 'base/_global';
-@import 'modules/_header';
-@import 'modules/_heading-primary';
-@import 'modules/_keyframes';
-@import 'modules/_btn';
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/functions';
+@import 'base/base';
+@import 'base/animations';
+@import 'base/utilities';
+@import 'pages/home';
+
+@import 'layout/_header';
+@import 'base/_typography';
+@import 'components/_btn';
